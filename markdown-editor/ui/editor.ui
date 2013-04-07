@@ -115,10 +115,18 @@
     <item row="0" column="0">
      <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,0">
       <item>
-       <widget class="QPlainTextEdit" name="txtInput"/>
+       <widget class="QPlainTextEdit" name="txtInput">
+        <property name="plainText">
+         <string/>
+        </property>
+       </widget>
       </item>
       <item>
-       <widget class="QTextEdit" name="txtOutput"/>
+       <widget class="QTextEdit" name="txtOutput">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+       </widget>
       </item>
      </layout>
     </item>
